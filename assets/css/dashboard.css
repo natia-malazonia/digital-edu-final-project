@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+body {
+    background-color: #F0F0F7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    height: 70px;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 14px 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+li>img {
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+#userli {
+    width: 122px;
+    margin-top: 27px;
+    float: right;
+    margin-right: 6%;
+    color: #707070;
+    font-size: 13px;
+    font-weight: normal;
+    cursor: pointer;
+    height: 44px;
+}
+
+#inner-box {
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    z-index: 1;
+    top: 53.56px;
+    left: 90.2%;
+    transform: rotate(45deg);
+    box-shadow: 1px 1px 8px #b8b7b7;
+}
+
+#user-side-box {
+    background-color: #FFFFFF;
+    width: 199px;
+    height: 196.34px;
+    position: absolute;
+    z-index: 9;
+    top: 5.5%;
+    left: 83.2%;
+    box-shadow: 1px 1px 8px #b8b7b7;
+}
+
+#user-side-box>div {
+    width: 150.66px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    padding: 13px 0;
+    color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    border-bottom: solid 1px #F1F1F3;;
+}
+
+
+
+  #user-side-box>div:hover {
+    background-color: #3B86FF;
+    color: #FFFFFF;
+  }
+  
+  #user-side-box>div:active {
+    background-color: #1062E5;
+    color: #FFFFFF;
+  }
+
+.avatar {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 17px;
+    right: 20px;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 33px;
+    right: 80px;
+}
+
+.border {
+    color: gray;
+    line-height: 40px;
+    margin: 0;
+}
+
+.notification-icon>img {
+    height: 31px;
+    width: 31px;
+    padding: 1px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 16.25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #43425D;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav {
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+}
+
+#closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+#openNav {
+    position: absolute;
+    display: inline-block;
+    transform: scaleX(-1);
+    top: 1.3%;
+    left: 2%;
+    height: 50px;
+}
+
+#openNav>img {
+    width: 24px;
+    height: 24px;
+}
+
+#closebtn {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    top: 2.4%;
+    right: 5.5%;
+    width: 24px;
+    height: 24px;
+}
+
+.digitaledu-logo {
+    position: absolute;
+    top: 2.4%;
+    left: 1.3%;
+    width: 123px;
+    height: 39px;
+}
+
+#dashboard {
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    height: 53px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 42px;
+    display: table;
+    border-left: solid 3px #A3A0FB;
+    background-color: #2F2E50;
+}
+
+.home-icon {
+    margin-left: 6.5%;
+    margin-top: 4.5%;
+    margin-right: 6%;
+    width: 16px;
+    height: 16px;
+}
+
+#todoList {
+    margin-top: 7px;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    height: 53px;
+}
+
+#todoList:active, #todoList:hover, #dashboard:active, #dashboard:hover {
+    background-color: #2F2E50;
+}
+
+.todo-icon {
+    margin-left: 6.5%;
+    margin-top: 4.5%;
+    margin-right: 7%;
+    width: 16px;
+    height: 16px;
+}
+
+h4 {
+    top: 10.6%;
+    left: 20.9%;
+    position: absolute;
+    color: #43425D;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#total-tasks-box {
+    position: absolute;
+    width: 23.12%;
+    height: 13.8%;
+    top: 17.5%;
+    left: 20.9%;
+    background-color: #FFFFFF;
+}
+
+.ttask-head, .ttask-head-comp, .ttask-head-incomp {
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    color: #707070;
+    top: 15%;
+    left: 5.4%;
+    opacity: 50%;
+}
+
+.total-items, .items-compl, .items-incomp {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4D4F5C;
+    top: 48%;
+    left: 5.4%;
+}
+
+.items-percentage, .compl-percentage, .incomp-percentage {
+    color: #FF4141;
+    position: absolute;
+    top: 74.4%;
+    left: 5.4%;
+}
+
+.compl-percentage {
+    color: #3CC480;
+}
+
+#barChart-1 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    top: 54.8%;
+    left: 64.3%;
+}
+
+#total-completed-box {
+    position: absolute;
+    width: 23.12%;
+    height: 13.8%;
+    top: 17.5%;
+    left: 45.93%;
+    background-color: #FFFFFF;
+}
+
+#total-incompleted-box {
+    position: absolute;
+    width: 23.12%;
+    height: 13.8%;
+    top: 17.5%;
+    left: 70.9%;
+    background-color: #FFFFFF;
+}
+
+#barChart-2 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    top: 54.8%;
+    left: 64.3%;
+}
+
+#barChart-3 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    top: 54.8%;
+    left: 64.3%;
+}

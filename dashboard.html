@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <ul>
+        <a href="javascript:void()" id="openNav"><img src="assets/images/Group 245@2x.png" alt=""></a>
+        <div id="userli"> <span id="user-fullname"></span> <img src="assets/images/small-down.png" alt="" class="down-arrow"> <img src="assets/images/avatar.png" alt="" class="avatar"></div>
+        <li class="border">|</li>
+        <li class="notification-icon"><img src="assets/images/icon_notification@2x.png" alt=""></li>
+        <li><img src="assets/images/icon_chat-notification.png" alt=""></li>
+        <li><img src="assets/images/icon_help-center.png" alt=""> </li>
+    </ul>
+
+    <div id="user-side-box" style="display: none;">
+        <div> <b>Status:</b>Online </div>
+        <div>Account setting</div>
+        <div>Feedback</div>
+        <div id="logout">Logout</div>
+    </div>
+    <div id="inner-box" style="display: none;"></div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <img src="assets/images/Group 245@2x.png" id="closebtn" alt="">
+        <img src="assets/images/Image 1.png" alt="" class="digitaledu-logo">
+        <div id="dashboard"><img src="assets/images/icon_home@2x.png" alt="" class="home-icon"> Dashboard</div>
+        <div id="todoList"><img src="assets/images/icon_products@2x.png" alt="" class="todo-icon">Todo List</div>
+    </div>
+
+    <h4>Overview</h4>
+
+    <div id="total-tasks-box">
+        <div class="ttask-head">Total Tasks</div>
+        <div class="total-items">200</div>
+        <div class="items-percentage">&#8595 13.8%</div>
+        <div id="barChart-1"><img src="assets/images/Bar Chart-1 (1).png" alt=""></div>
+    </div>
+
+    <div id="total-completed-box">
+        <div class="ttask-head-comp">Total Completed Tasks</div>
+        <div class="items-compl">200</div>
+        <div class="compl-percentage">&#8593 13.8%</div>
+        <div id="barChart-2"><img src="assets/images/Bar Chart-2 (1).png" alt=""></div>
+    </div>
+
+    <div id="total-incompleted-box">
+        <div class="ttask-head-incomp">Total Incompleted Tasks</div>
+        <div class="items-incomp">200</div>
+        <div class="incomp-percentage">&#8595 13.8%</div>
+        <div id="barChart-3"><img src="assets/images/Bar Chart-3 (1).png" alt=""></div>
+    </div>
+    
+
+    <script src="assets/js/dashboard.js"></script>
+</body>
+
+</html>

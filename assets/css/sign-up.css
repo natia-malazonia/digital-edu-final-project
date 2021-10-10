@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.row {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.column-left {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+}
+
+.column-right {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+}
+
+.left-image-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.digital-edu-logo {
+    position: absolute;
+    z-index: 1;
+    left: 37.75%;
+    top: 11.45%;
+    width: 24.5%;
+    height: 6.4%;
+}
+
+h2 {
+    color: #43425d;
+    font-weight: 700;
+    text-align: center;
+    width: 31.25%;
+    height: 11.45%;
+    top: 7.18%;
+    right: 34.37%;
+    font-size: 35px;
+    letter-spacing: 6px;
+    line-height: 33px;
+}
+
+h6 {
+    color: #4d4f5c;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 21px;
+    width: 37.25%;
+    right: 31.37%;
+    top: 21.25%;
+}
+
+#confPsw, #email, #firstName, #lastName, #password, #userName {
+    position: absolute;
+    font-weight: inherit;
+    border-color: #e9e9f0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 11.8px
+}
+
+.sign-in-page, h2, h6 {
+    position: absolute
+}
+
+.unchecked {
+    color: #ff6565 !important;
+}
+
+.checkedTxt {
+    color: #43425D !important;
+}
+
+.checked {
+    background: url(../images/Checkbox_pressed.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+#user-exists-error-message {
+    color: #ff6565;
+    position: absolute;
+    bottom: 29.3%;
+    left: 35%;
+    display: none
+}
+
+.signup, footer {
+    position: absolute
+}
+
+.signup {
+    border: #43425D;
+    background-color: #43425D;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 44px
+}
+
+a {
+    margin-top: 40px;
+}
+
+footer {
+    color: #43425d;
+    font-size: 16px;
+    top: 96.45%;
+    left: 42.37%;
+}
+
+#confPsw:hover, #email:hover, #firstName:hover, #lastName:hover, #password:hover, #userName:hover {
+    border-color: #4d4f5c
+}
+
+#confPsw:active, #email:active, #firstName:active, #lastName:active, #password:active, #userName:active {
+    border-color: #3b86ff;
+    outline: 0!important
+}
+
+#confPsw:focus, #email:focus, #firstName:focus, #lastName:focus, #password:focus, #userName:focus {
+    border-color: #3b86ff;
+    outline: 0!important;
+    color: #4d4f5c
+}
+
+#confPsw:invalid, #email:invalid, #firstName:invalid, #lastName:invalid, #password:invalid, #userName:invalid {
+    outline: 0;
+    border-color: #ff6565;
+}
+
+.signup:active {
+    background-color: #2F2E50;
+    border-color: #2F2E50;
+}
+
+#firstName, #lastName {
+    width: 23.41%;
+    top: 26.9%;
+    left: 25.11%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#lastName {
+    left: 51.73%;
+}
+
+#userName {
+    height: 19px;
+    bottom: 62%;
+}
+
+#confPsw, #email, #password, #userName {
+    width: 50%;
+    left: 25%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#email {
+    height: 19px;
+    bottom: 54.1%;
+}
+
+#password {
+    bottom: 46.1%;
+}
+
+#confPsw {
+    bottom: 38.25%;
+}
+
+#checkTxt, #checkbox {
+    position: absolute;
+    bottom: 32.1%;
+}
+
+#checkTxt {
+    left: 29.1%;
+    font-size: 15px;
+    color: #43425d
+}
+
+#checkbox {
+    left: 25%;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background: url(../images/Checkbox_normal.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.signup {
+    width: 23.12%;
+    height: 50px;
+    top: 72.3%;
+    left: 39%;
+    letter-spacing: 1px;
+}
+
+.sign-in-page {
+    left: 38.12%;
+    top: 81.87%;
+    font-size: 15px;
+    text-decoration: underline;
+}

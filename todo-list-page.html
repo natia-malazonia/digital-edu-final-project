@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Page</title>
+    <link rel="stylesheet" href="assets/css/todo-list-page.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <ul>
+        <a href="javascript:void()" id="openNav"><img src="assets/images/Group 245@2x.png" alt=""></a>
+        <div id="userli"><span id="user-fullname">Name Lastname</span>  <img src="assets/images/small-down.png" alt="" class="down-arrow"> <img src="assets/images/avatar.png" alt="" class="avatar"></div>
+        <li class="border">|</li>
+        <li class="notification-icon"><img src="assets/images/icon_notification@2x.png" alt=""></li>
+        <li><img src="assets/images/icon_chat-notification.png" alt=""></li>
+        <li><img src="assets/images/icon_help-center.png" alt=""> </li>
+    </ul>
+
+    <div id="user-side-box" style="display: none;">
+        <div> <b>Status:</b>Online </div>
+        <div>Account setting</div>
+        <div>Feedback</div>
+        <div id="logout">Logout</div>
+    </div>
+    <div id="inner-box" style="display: none;"></div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <img src="assets/images/Group 245@2x.png" id="closebtn" alt="">
+        <img src="assets/images/Image 1.png" alt="" class="digitaledu-logo">
+        <div id="dashboard"><img src="assets/images/icon_home@2x.png" alt="" class="home-icon"> Dashboard</div>
+        <div id="todo-list"><img src="assets/images/icon_products@2x.png" alt="" class="todo-icon">Todo List</div>
+    </div>
+
+    <main>
+        <div id="card">
+            <h3>Todo List</h3>
+            <div id="table-wrapper">
+                <h5>All todo</h5>
+                <button id="addTodo">Add Todo</button>
+
+                <table id="data-grid">
+                    <tr id="row-for-header">
+                        <th style="width: 291px; padding-left: 20px;">Task name</th>
+                        <th style="width: 178px;">Is completed</th>
+                        <th style="width: 166px">Created By</th>
+                        <th style="width: 158px;">Create Date</th>
+                        <th style="width: 143px;">Update Date</th>
+                        <th style="width: 132px; text-align: right; padding-right: 24px;">Actions</th>
+                    </tr>
+
+                </table>
+
+                <div id="paginator">
+                    <button id="down-page-btn">&lt;</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button id="up-page-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div id="todoModal">
+    </div>
+    <div id="modal-content">
+        <div id="first-row">
+           <span>Add todo</span>
+           <img src="assets/images/icon_close.png" alt="" id="closeModal">
+        </div> 
+
+        <input type="text" id="todo-title" name="todo-title" placeholder="Title">
+
+        <button id="save-btn">Save</button>
+       </div>
+
+    <script src="assets/js/todoListPage.js"></script>
+</body>
+
+</html>

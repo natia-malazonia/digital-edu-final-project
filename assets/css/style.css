@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.column-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.column-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+.left-image-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.digital-edu-logo {
+    position: absolute;
+    z-index: 1;
+    width: 24.5%;
+    top: 11.4%;
+    left: 37.75%;
+    right: 37.75%
+}
+
+h2, h6 {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+
+h2 {
+    color: #43425d;
+    font-weight: 700;
+    top: 14.6%;
+    left: 34.75%;
+    width: 31.25%;
+    height: 110px;
+    font-size: 35px;
+    line-height: 33px;
+    letter-spacing: 7px;
+}
+
+h6 {
+    color: #4d4f5c;
+    opacity: 50%;
+    font-weight: 400;
+    top: 30.4%;
+    left: 29.12%;
+    width: 41.75%;
+    height: 23px;
+    font-size: 18px;
+}
+
+#regPassword, #regUsername {
+    position: absolute;
+    font-weight: inherit;
+    border-color: #e9e9f0;
+    border-top: none;
+    border-right: none;
+    border-left: none
+}
+
+#checkbox, #login, .psw {
+    position: absolute
+}
+
+#checkbox, .psw {
+    font-weight: inherit;
+    color: #43425D;
+    top: 37.2px;
+}
+
+.psw {
+    border: 0;
+    background-color: #fff;
+}
+
+#login {
+    border: #43425D;
+    background-color: #43425D;
+    border-radius: 4px;
+    color: #fff
+}
+
+#fPageSignup, footer {
+    position: absolute;
+    color: #43425D;
+}
+
+#fPageSignup {
+    border: 1px solid #43425d;
+    border-radius: 4px;
+    background-color: #fff
+}
+
+footer {
+    font-size: 11px;
+    width: 122px;
+    height: 14px;
+    left: 42.3%;
+    bottom: 2.1%;
+}
+
+#regPassword, #regUsername {
+    width: 50%;
+    top: 41.9%;
+    left: 25%;
+    right: 25%;
+    font-size: 15px;
+    padding-bottom: 11.8px;
+}
+
+#login-inputs {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+#regPassword {
+    top: 49.8%;
+}
+
+.psw {
+    width: 109px;
+    font-size: 15px;
+    right: 0;
+}
+
+#checkContainer {
+    width: 50.25%;
+    height: 19px;
+    position: absolute;
+    top: 54.5%;
+    left: 25%;
+}
+
+#checkbox {
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background: url(../images/Checkbox_normal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+}
+
+#txtForCheck {
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    left: 33px;
+}
+
+.checkedBox {
+    background: url(../images/Checkbox_pressed.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important
+}
+
+#user-notFound-message {
+    display: none;
+    color: #ff6565;
+    font-size: 15px;
+    top: 55.5%;
+    position: absolute;
+    left: 46%;
+}
+
+#login, #fPageSignup {
+    width: 23.12%;
+    height: 5.2%;
+    top: 63.3%;
+    left: 25%;
+    font-size: 18px;
+}
+
+#login:active, #fPageSignup:active {
+    background-color: #2F2E50;
+    border: 3px solid #2F2E50;
+}
+
+#fPageSignup:active {
+    color: #2F2E50;
+    background-color: white;
+}
+
+#fPageSignup {
+    left: 51.87%;
+}
+
+#regPassword:hover, #regUsername:hover {
+    border-color: #4d4f5c
+}
+
+#regPassword:active, #regUsername:active {
+    border-color: #3b86ff;
+    outline: 0!important
+}
+
+#regPassword:focus, #regUsername:focus {
+    border-color: #3b86ff;
+    outline: 0!important;
+    color: #4d4f5c;
+}
+
+#regPassword:invalid, #regUsername:invalid {
+    outline: 0;
+    border-color: #ff6565
+}
