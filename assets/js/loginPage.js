@@ -2,7 +2,7 @@ const loginButton = document.getElementById('login');
 const fPageSignupButton = document.getElementById('fPageSignup');
 
 fPageSignupButton.addEventListener('click', event=>{
-    window.location.replace('/sign-up.html');
+    window.location.replace('sign-up.html');
 })
 
 loginButton.addEventListener('click', event=> {
@@ -15,7 +15,7 @@ loginButton.addEventListener('click', event=> {
     if(storedUsersArray != null && storedUsersArray.filter(a=>a.userName == regUsName.value && a.password == regPass.value).length == 1) {
         let user = storedUsersArray.filter(a=>a.userName == regUsName.value && a.password == regPass.value)[0];
         window.localStorage.setItem('loggedInUser', JSON.stringify(user));
-        window.location.replace('/todo-list-page.html');
+        window.location.replace('todo-list-page.html');
     } else {
         showErrorMessageToUser();
     }

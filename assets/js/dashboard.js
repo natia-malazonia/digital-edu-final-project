@@ -1,7 +1,7 @@
 
 const user = JSON.parse(window.localStorage.getItem('loggedInUser'));
 if(user == null) {
-  window.location.href = '/index.html';
+  window.location.href = 'index.html';
 }
 const sideNavbar = document.getElementById('mySidenav');
 const closeBtn = document.getElementById('closebtn');
@@ -17,12 +17,12 @@ openNavBtn.addEventListener('click', event=> {
 
 const todoPage = document.getElementById('todoList');
 todoPage.addEventListener('click', event=> {
-  return window.location.href='/todo-list-page.html'
+  return window.location.href='todo-list-page.html'
 })
 
 const dashboardPageBtn = document.getElementById('dashboard');
 dashboardPageBtn.addEventListener('click', event=>{
-  return window.location.href='/dashboard.html'
+  return window.location.href='dashboard.html'
 })
 
 const signoutBoxBtn = document.getElementById('userli');
@@ -43,7 +43,7 @@ signoutBoxBtn.addEventListener('click', event=>{
 const logoutBtn = document.getElementById('logout');
 logoutBtn.addEventListener('click', event => {
   window.localStorage.removeItem('loggedInUser');
-  window.location.href = '/index.html';
+  window.location.href = 'index.html';
 })
 
 document.addEventListener('DOMContentLoaded', event=> {

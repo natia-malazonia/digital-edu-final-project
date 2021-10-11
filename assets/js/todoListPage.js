@@ -2,7 +2,7 @@
 
 let user = JSON.parse(window.localStorage.getItem('loggedInUser'));
 if(user == null) {
-  window.location.href = '/index.html';
+  window.location.href = 'index.html';
 }
 
 const sideNavbar = document.getElementById('mySidenav');
@@ -39,12 +39,12 @@ document.getElementById('todoModal').addEventListener('click', event => {
 
 const todoPage = document.getElementById('todo-list');
 todoPage.addEventListener('click', event => {
-  return window.location.href = '/todo-list-page.html'
+  return window.location.href = 'todo-list-page.html'
 })
 
 const dashboardPageBtn = document.getElementById('dashboard');
 dashboardPageBtn.addEventListener('click', event => {
-  return window.location.href = '/dashboard.html'
+  return window.location.href = 'dashboard.html'
 })
 
 
@@ -104,9 +104,9 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let i = pageNum; i < maxButtons; i++) {
     if (i == selectedPageNum) {
       paginatorString +=
-        `<button class="active" onclick="window.location.href='/todo-list-page.html?page=${i}'">${i}</button>`;
+        `<button class="active" onclick="window.location.href='todo-list-page.html?page=${i}'">${i}</button>`;
     } else {
-      paginatorString += `<button onclick="window.location.href='/todo-list-page.html?page=${i}'">${i}</button>`;
+      paginatorString += `<button onclick="window.location.href='todo-list-page.html?page=${i}'">${i}</button>`;
     }
   }
   paginatorString += '<button id="up-page-btn">&gt;</button>';
@@ -134,7 +134,7 @@ signoutBoxBtn.addEventListener('click', event => {
 const logoutBtn = document.getElementById('logout');
 logoutBtn.addEventListener('click', event => {
   window.localStorage.removeItem('loggedInUser');
-  window.location.href = '/index.html';
+  window.location.href = 'index.html';
 })
 
 
