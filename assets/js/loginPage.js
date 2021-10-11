@@ -25,7 +25,7 @@ loginButton.addEventListener('click', event=> {
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    const fPageCheckBoxButton = document.getElementById('checkContainer');
+    const fPageCheckBoxButton = document.getElementById('checkbox');
     fPageCheckBoxButton.addEventListener('click', event => {
         let fPageChBox = document.getElementById('checkbox')
         if (fPageChBox.className == "checkedBox") {
