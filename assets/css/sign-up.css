@@ -112,7 +112,8 @@ h6 {
     background-color: #43425D;
     border-radius: 4px;
     color: #fff;
-    margin-top: 44px
+    margin-top: 44px;
+    cursor: pointer;
 }
 
 a {
@@ -222,4 +223,5 @@ footer {
     top: 81.87%;
     font-size: 15px;
     text-decoration: underline;
+    cursor: pointer;
 }

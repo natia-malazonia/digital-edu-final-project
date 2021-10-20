@@ -96,7 +96,8 @@ h6 {
     border: #43425D;
     background-color: #43425D;
     border-radius: 4px;
-    color: #fff
+    color: #fff;
+    cursor: pointer;
 }
 
 #fPageSignup, footer {
@@ -107,7 +108,8 @@ h6 {
 #fPageSignup {
     border: 1px solid #43425d;
     border-radius: 4px;
-    background-color: #fff
+    background-color: #fff;
+    cursor: pointer;
 }
 
 footer {
